@@ -1,1 +1,2 @@
 day la test7
+test conflict merge
