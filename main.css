@@ -1,0 +1,18 @@
+.layout{
+    display: flex;
+    height: 200px;
+    gap: 10px;
+}
+
+.layout > div{
+    flex: 1;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.layout > div:hover{
+    flex: 5;
+}
